@@ -17,22 +17,52 @@ theme: default
 
 ---
 
+## 🗓️ Agenda - Sesión 1 (2h 30min)
+
+### 1. Bienvenida e Introducción (15 min)
+- Objetivos de la certificación AI-102
+- Rol del Azure AI Engineer
+
+### 2. Configuración del Entorno (20 min)
+- Acceso al repositorio GitHub
+- Codespaces, Azure CLI, Python SDKs
+
+### 3. Teoría: ¿Qué es Cognitive Services? (20 min)
+- Categorías: Visión, Lenguaje, Voz, Decisión
+- Formas de consumo: Portal, SDK, REST API, Containers
+
+### 4. Laboratorio Guiado (60 min)
+- Crear recurso en Azure
+- Llamar API con SDK Python
+- Crear app con Streamlit
+
+### 5. Revisión y Preguntas (15 min)
+- Validación de resultados
+- Soporte individual
+
+### 6. Reto opcional (20 min)
+- Mejorar app para aceptar múltiples frases
+- Añadir botón para limpiar entradas
+
+---
+
 ## 🧠 ¿Qué es Azure Cognitive Services?
 
-- Conjunto de APIs de IA listas para usar.
-- Categorías principales:
-  - Visión
-  - Lenguaje
-  - Voz
-  - Decisión
+- APIs listas para usar con capacidades de IA.
+- Categorías:
+  - Visión (análisis de imágenes)
+  - Lenguaje (análisis de texto, traducción)
+  - Voz (reconocimiento y síntesis)
+  - Decisión (moderación, personalización)
 
 ---
 
 ## ⚙️ Opciones de Consumo
 
-- Portal de Azure (interfaz gráfica)
-- REST APIs / SDKs (.NET, Python, JS, Java)
-- Contenedores Docker para ejecución local
+- Portal de Azure
+- SDKs (Python, .NET, JS, Java)
+- REST API
+- Contenedores Docker para uso local u offline
 
 ---
 
@@ -40,9 +70,8 @@ theme: default
 
 1. Ir al [Portal de Azure](https://portal.azure.com)
 2. Buscar “Cognitive Services”
-3. Crear un recurso:
-   - Nombre, región, pricing F0 si está disponible
-4. Copiar **endpoint** y **clave** una vez creado
+3. Crear el recurso (nombre, región, pricing F0)
+4. Obtener endpoint y clave
 
 ---
 
@@ -54,22 +83,18 @@ from azure.core.credentials import AzureKeyCredential
 ```
 
 - Crear cliente con `TextAnalyticsClient`
-- Llamar a `analyze_sentiment()` con una lista de documentos
+- Llamar a `analyze_sentiment()`
 
 ---
 
-## 💻 Integración en App Python (Streamlit)
+## 💻 Crear una App con Streamlit
 
-- Crear `app.py`
-- Pedir texto al usuario
-- Mostrar resultado de análisis de sentimiento
+- Captura texto del usuario
+- Analiza sentimiento
+- Muestra el resultado visualmente
 
-**Librerías**:
 ```bash
 pip install streamlit
-```
-**Ejecutar**:
-```bash
 streamlit run app.py
 ```
 
@@ -77,18 +102,20 @@ streamlit run app.py
 
 ## ✅ Validación
 
-- [ ] Recurso creado correctamente
+- [ ] Recurso creado en Azure
 - [ ] SDK probado con éxito
-- [ ] App básica integrada y funcional
+- [ ] App funcional
 
 ---
 
-## 🙋 Preguntas y Demo Guiada
+## 🧩 Reto del Estudiante (Bonus)
 
-- Abrir el Codespace
-- Seguir los pasos del README del Lab 01
+### Mejora tu app:
+- [ ] Acepta una lista de frases
+- [ ] Muestra resultados en una tabla
+- [ ] Añade botón para limpiar el texto
 
-**Tiempo estimado**: 25-30 minutos
+> ¡Comparte tu resultado en la próxima clase!
 
 ---
 
