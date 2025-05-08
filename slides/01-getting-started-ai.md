@@ -5,7 +5,7 @@ theme: default
 ---
 
 # 🧠 AI-102 - Lab 01
-## Introducción a Azure Cognitive Services
+## Introducción a Azure AI Services
 
 ---
 

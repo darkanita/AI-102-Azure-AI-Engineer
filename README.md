@@ -1,55 +1,45 @@
-# AI-102: Azure AI Engineer
+# AI-102: Azure AI Engineer - Curso Actualizado
 
-**Repositorio oficial para preparar la certificación Microsoft Certified: Azure AI Engineer Associate (AI-102).**
+**Repositorio para preparar la certificación Microsoft Certified: Azure AI Engineer Associate (AI-102)**
 
-## 📘 Descripción
-Este repositorio contiene laboratorios prácticos, recursos, cuestionarios y configuraciones listas para usar en GitHub Codespaces. Está diseñado para acompañar el contenido del curso oficial y ayudarte a dominar los servicios de inteligencia artificial en Azure.
+## 🎯 Objetivo
+Este repositorio contiene laboratorios prácticos, presentaciones, materiales de lectura y ejercicios opcionales para acompañar el curso **AI-102T00: Designing and Implementing a Microsoft Azure AI Solution**.
 
-## 🔧 Requisitos
-- Conocimientos básicos de desarrollo (Python o C#)
-- Cuenta gratuita de Azure o Azure Pass
-- GitHub account
+## 🧭 Metodología
+- Curso dividido en 6 sesiones de 2h 30min
+- Cada sesión incluye:
+  - Introducción teórica
+  - Laboratorio guiado en Codespaces
+  - Actividades opcionales
+- Incluye simulador de examen al final del curso
 
-## 🚀 Empezar con GitHub Codespaces
-1. Haz clic en el botón verde "Code"
-2. Selecciona la pestaña **Codespaces**
-3. Crea un nuevo Codespace sobre la rama `main`
+## 🛠️ Requisitos
+- Conocimientos básicos de Azure y programación (Python o C#)
+- Cuenta de Azure activa o Azure Pass
+- Acceso a GitHub y Codespaces
 
-El entorno incluye:
-- Azure CLI
-- Python 3.11
-- Últimas versiones estables de SDKs de Azure AI
+## 🗂️ Módulos del Curso
+| Módulo | Título | Laboratorio | Estimación |
+|--------|--------|-------------|------------|
+| 01 | Preparación para desarrollo IA | [Ver Lab](labs/01-getting-started-ai/) | 75-90 min |
+| 02 | Visión por computadora | *(pendiente)* | 45 min |
+| 03 | Procesamiento de lenguaje natural | *(pendiente)* | 45 min |
+| 04 | Servicios de voz | *(pendiente)* | 45 min |
+| 05 | Bots conversacionales | *(pendiente)* | 45 min |
+| 06 | Minería de conocimiento | *(pendiente)* | 45 min |
+| 07 | Automatización con IA | *(opcional)* | 30 min |
+| 08 | IA responsable | *(opcional)* | 30 min |
+| 09 | Revisión para el examen | Simulador y repaso | 60-90 min |
 
-## 📂 Laboratorios Disponibles
-Cada laboratorio está diseñado para ejecutarse en un entorno de Codespaces y toma entre 20 y 40 minutos. 
+## 🚀 Cómo empezar
+1. Abre el repositorio en [GitHub Codespaces](https://github.com/features/codespaces)
+2. Sigue la carpeta `slides/00-introduccion.md` para la presentación inicial
+3. Accede a `labs/01-getting-started-ai/` y completa el primer laboratorio
 
-| Módulo | Título | Duración Estimada | Enlace |
-|--------|--------|-------------------|--------|
-| 01 | Introducción a Cognitive Services | 25 min | [Ver Lab](labs/01-cognitive-services/) |
-| 02 | Procesamiento de Lenguaje Natural (NLP) | 30 min | [Ver Lab](labs/02-nlp/) |
-| 03 | Servicios de Voz | 30 min | [Ver Lab](labs/03-speech/) |
-| 04 | Visión por Computadora | 30 min | [Ver Lab](labs/04-computer-vision/) |
-| 05 | Custom Vision | 35 min | [Ver Lab](labs/05-custom-vision/) |
-| 06 | Language Understanding (LUIS) | 30 min | [Ver Lab](labs/06-language-understanding/) |
-| 07 | Question Answering | 25 min | [Ver Lab](labs/07-question-answering/) |
-| 08 | Bots con Azure Bot Framework | 35 min | [Ver Lab](labs/08-bots/) |
-| 09 | Búsqueda Inteligente y Knowledge Mining | 40 min | [Ver Lab](labs/09-knowledge-mining/) |
-
-## 🗓️ Plan de Clases Sugerido (6 sesiones de 2h 30min)
-
-| Clase | Tema Principal | Módulos | Tiempo Estimado |
-|-------|----------------|---------|------------------|
-| 1 | Introducción y Cognitive Services | 01 - Cognitive Services, Setup | 90 min teoría + 30 min práctica |
-| 2 | NLP y Text Analytics | 02 - NLP, 07 - Question Answering | 75 + 30 min práctica |
-| 3 | Servicios de Voz | 03 - Voz, repaso LUIS | 90 min práctica + discusión |
-| 4 | Visión por Computadora | 04 - Computer Vision, 05 - Custom Vision | 65 + 35 min práctica |
-| 5 | LUIS y Bots | 06 - LUIS, 08 - Bots | 65 + 35 min práctica |
-| 6 | Knowledge Mining y Repaso | 09 - Azure Search, repaso final | 60 + 60 min revisión general |
-
-## 📌 Recursos Adicionales
-- [Documentación Oficial](https://learn.microsoft.com/azure/cognitive-services/)
-- [AI-102 Microsoft Learn](https://learn.microsoft.com/certifications/azure-ai-engineer/)
-- [Entorno de Laboratorios](https://microsoftlearning.github.io/AI-102-AIEngineer/)
+## 📚 Recursos útiles
+- [Curso oficial AI-102T00](https://learn.microsoft.com/es-es/training/courses/ai-102t00)
+- [Microsoft Learn para Azure AI](https://learn.microsoft.com/es-es/training/azure/ai-fundamentals/)
+- [Laboratorios oficiales AI-102](https://microsoftlearning.github.io/AI-102-AIEngineer/)
 
 ## 🧪 Licencia
-Este repositorio está distribuido bajo licencia MIT. Consulta `LICENSE` para más detalles.
+Este contenido se comparte bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
