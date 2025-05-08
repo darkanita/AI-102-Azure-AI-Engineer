@@ -3,7 +3,7 @@
 **Repositorio para preparar la certificación Microsoft Certified: Azure AI Engineer Associate (AI-102)**
 
 ## 🎯 Objetivo
-Este repositorio contiene laboratorios prácticos, presentaciones, materiales de lectura y ejercicios opcionales para acompañar el curso **AI-102T00: Designing and Implementing a Microsoft Azure AI Solution**.
+Este repositorio contiene laboratorios prácticos, presentaciones, materiales de lectura y ejercicios opcionales para acompañar el curso **AI-102: Designing and Implementing a Microsoft Azure AI Solution**.
 
 ## 🧭 Metodología
 - Curso dividido en 6 sesiones de 2h 30min
@@ -11,17 +11,17 @@ Este repositorio contiene laboratorios prácticos, presentaciones, materiales de
   - Introducción teórica
   - Laboratorio guiado en Codespaces
   - Actividades opcionales
-- Incluye simulador de examen al final del curso
+- Al final del curso realizaremos el [simulador](https://learn.microsoft.com/es-es/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification#certification-practice-for-the-exam) del examen de certificacion.
 
 ## 🛠️ Requisitos
-- Conocimientos básicos de Azure y programación (Python o C#)
+- Conocimientos básicos de Azure y programación Python
 - Cuenta de Azure activa o Azure Pass
 - Acceso a GitHub y Codespaces
 
 ## 🗂️ Módulos del Curso
 | Módulo | Título | Laboratorio | Estimación |
 |--------|--------|-------------|------------|
-| 01 | Preparación para desarrollo IA | [Ver Lab](labs/01-getting-started-ai/) | 75-90 min |
+| 01 | Preparación para desarrollo IA | [Ver Lab](labs/01.getting-started-ai.md) | 75-90 min |
 | 02 | Visión por computadora | *(pendiente)* | 45 min |
 | 03 | Procesamiento de lenguaje natural | *(pendiente)* | 45 min |
 | 04 | Servicios de voz | *(pendiente)* | 45 min |
